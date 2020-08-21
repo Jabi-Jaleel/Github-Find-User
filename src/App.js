@@ -78,7 +78,8 @@ export default class App extends Component {
         </main>
         <footer>
           <h6>
-            Designed & Developed by <a href="">Jabir Jaleel</a>
+            Designed & Developed by{" "}
+            <a href="https://www.instagram.com/jabi_jaleel/">Jabir Jaleel</a>
           </h6>
         </footer>
       </>
