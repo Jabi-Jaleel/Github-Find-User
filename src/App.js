@@ -27,13 +27,19 @@ export default class App extends Component {
   fetchdata = (event) => {
     event.preventDefault();
     console.log(event.target.username.value);
-    axios.get(this.state.api + event.target.username.value).then((response) => {
-      this.setState({
-        users: response.data,
+    axios
+      .get(this.state.api + event.target.username.value)
+      .then((response) => {
+        this.setState({
+          users: response.data,
+        });
+        console.log(response.data);
+        console.log(this.state.users.id);
+      })
+      .catch(function (error) {
+        // handle error
+        alert("Please enter valid Github username ");
       });
-      console.log(response.data);
-      console.log(this.state.users.id);
-    });
   };
 
   render() {
@@ -44,7 +50,11 @@ export default class App extends Component {
             <img src={gitimg} alt="" />
           </div>
           <form className="searchfield" onSubmit={this.fetchdata}>
-            <input type="text" placeholder="Type username" name="username" />
+            <input
+              type="text"
+              placeholder="Type Github username and enter"
+              name="username"
+            />
           </form>
           <div className="profile-container">
             <img src={this.state.users.avatar_url} alt="" />
