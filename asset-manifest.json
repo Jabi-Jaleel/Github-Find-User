@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Github-Find-User/static/css/main.4e3ba020.chunk.css",
+    "main.js": "/Github-Find-User/static/js/main.5674f5ec.chunk.js",
+    "main.js.map": "/Github-Find-User/static/js/main.5674f5ec.chunk.js.map",
+    "runtime-main.js": "/Github-Find-User/static/js/runtime-main.e0a7d41c.js",
+    "runtime-main.js.map": "/Github-Find-User/static/js/runtime-main.e0a7d41c.js.map",
+    "static/js/2.9c172640.chunk.js": "/Github-Find-User/static/js/2.9c172640.chunk.js",
+    "static/js/2.9c172640.chunk.js.map": "/Github-Find-User/static/js/2.9c172640.chunk.js.map",
+    "index.html": "/Github-Find-User/index.html",
+    "precache-manifest.a55a4299079ee29c0d78cd398cee5297.js": "/Github-Find-User/precache-manifest.a55a4299079ee29c0d78cd398cee5297.js",
+    "service-worker.js": "/Github-Find-User/service-worker.js",
+    "static/css/main.4e3ba020.chunk.css.map": "/Github-Find-User/static/css/main.4e3ba020.chunk.css.map",
+    "static/js/2.9c172640.chunk.js.LICENSE.txt": "/Github-Find-User/static/js/2.9c172640.chunk.js.LICENSE.txt",
+    "static/media/git-img.png": "/Github-Find-User/static/media/git-img.cf7a9ac0.png",
+    "static/media/git-pro.png": "/Github-Find-User/static/media/git-pro.a0f2d940.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0a7d41c.js",
+    "static/js/2.9c172640.chunk.js",
+    "static/css/main.4e3ba020.chunk.css",
+    "static/js/main.5674f5ec.chunk.js"
+  ]
+}
