@@ -9,7 +9,7 @@ export default class App extends Component {
     super();
     this.state = {
       users: [],
-      username: "jabi-jaleel",
+      username: "jbscript",
       api: "https://api.github.com/users/",
     };
   }
